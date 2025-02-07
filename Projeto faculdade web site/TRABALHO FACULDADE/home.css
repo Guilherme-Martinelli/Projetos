@@ -1,0 +1,81 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-image: url('sobrefundo.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 8em;
+    margin-bottom: 30px;
+}
+
+
+h3 {
+    font-size: 3em;
+    margin-bottom: 12px;
+}
+
+h4 {
+    font-size: 3em;
+    margin-bottom: 12px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.button img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.premiacao {
+    margin-top: 30px;
+}
+
+.premiacao h2 {
+    font-size: 3em;
+    margin-bottom: 12px;
+}
+
+.premiacao-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.premiacao-images img {
+    width: 100px;
+    height: 100px;
+}
