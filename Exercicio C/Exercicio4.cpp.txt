@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main() {
+	setlocale(LC_ALL, "Portuguese");
+    float pesos[10];  // Array para armazenar os pesos dos 10 bois
+    float maior, menor;
+
+    // Ler o peso dos 10 bois
+    for (int i = 0; i < 10; i++) {
+        printf("Digite o peso do boi %d (em kg): ", i + 1);
+        scanf("%f", &pesos[i]);
+
+        // Inicializa o maior e o menor com o peso do primeiro boi
+        if (i == 0) {
+            maior = pesos[i];
+            menor = pesos[i];
+        }
+
+        // Verificar se o peso atual é maior ou menor
+        if (pesos[i] > maior) {
+            maior = pesos[i];
+        }
+        if (pesos[i] < menor) {
+            menor = pesos[i];
+        }
+    }
+
+    // Exibir o resultado
+    printf("O peso do boi mais gordo é: %.2f kg\n", maior);
+    printf("O peso do boi mais magro é: %.2f kg\n", menor);
+
+    return 0;
+}
+

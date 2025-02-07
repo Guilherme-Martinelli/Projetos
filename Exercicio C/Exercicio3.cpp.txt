@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main() {
+	setlocale(LC_ALL, "Portuguese");
+    int numeros[5];  // Array para armazenar os 5 números
+    int menor, soma = 0, entre5e10 = 0;
+    float media;
+
+    // Ler os 5 números fornecidos pelo usuário
+    for (int i = 0; i < 5; i++) {
+        printf("Digite o %dº número: ", i + 1);
+        scanf("%d", &numeros[i]);
+
+        // Verificar se o número está entre 5 e 10
+        if (numeros[i] >= 5 && numeros[i] <= 10) {
+            entre5e10++;
+        }
+
+        // Calcular a soma dos números
+        soma += numeros[i];
+
+        // Encontrar o menor número
+        if (i == 0) {
+            menor = numeros[i];  // Inicializa com o primeiro número
+        } else if (numeros[i] < menor) {
+            menor = numeros[i];
+        }
+    }
+
+    // Calcular a média
+    media = (float)soma / 5;
+
+    // Exibir os resultados
+    printf("Menor número digitado: %d\n", menor);
+}
+
