@@ -1,0 +1,10 @@
+E:\Projetos Visual\ExercicioRichard3\ExercicioRichard3\bin\Debug\ExercicioRichard3.exe.config
+E:\Projetos Visual\ExercicioRichard3\ExercicioRichard3\bin\Debug\ExercicioRichard3.exe
+E:\Projetos Visual\ExercicioRichard3\ExercicioRichard3\bin\Debug\ExercicioRichard3.pdb
+E:\Projetos Visual\ExercicioRichard3\ExercicioRichard3\obj\Debug\ExercicioRichard3.csproj.AssemblyReference.cache
+E:\Projetos Visual\ExercicioRichard3\ExercicioRichard3\obj\Debug\ExercicioRichard3.Form1.resources
+E:\Projetos Visual\ExercicioRichard3\ExercicioRichard3\obj\Debug\ExercicioRichard3.Properties.Resources.resources
+E:\Projetos Visual\ExercicioRichard3\ExercicioRichard3\obj\Debug\ExercicioRichard3.csproj.GenerateResource.cache
+E:\Projetos Visual\ExercicioRichard3\ExercicioRichard3\obj\Debug\ExercicioRichard3.csproj.CoreCompileInputs.cache
+E:\Projetos Visual\ExercicioRichard3\ExercicioRichard3\obj\Debug\ExercicioRichard3.exe
+E:\Projetos Visual\ExercicioRichard3\ExercicioRichard3\obj\Debug\ExercicioRichard3.pdb
